@@ -12,6 +12,10 @@ function ProjectCard(props) {
             <div className="back">
                 {/* <div className="back_star">*</div> */}
                 {props.back}
+                {/* <div className="techstack">{props.techstack}</div> */}
+                {/* <div className="viewproj"> */}
+                <a className="viewproj" href={props.link} target="_blank">{props.link_text}</a>
+                {/* </div> */}
             </div>
     
     </div>;

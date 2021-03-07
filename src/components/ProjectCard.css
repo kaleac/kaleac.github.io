@@ -75,6 +75,39 @@
     letter-spacing: 1px;
 }
 
+.viewproj {
+    /* background: red; */
+    position: absolute;
+    /* width: 50%; */
+    bottom: 0px;
+    right: 0px;
+    font-size: 0.9em;
+    /* i don't have bold for this font */
+    /* font-weight: 3000; */
+    color: var(--red);
+    text-align: left;
+    text-decoration: none;
+    /* line-height: 170%; */
+    /* border-radius: var(--border-rad); */
+    letter-spacing: 1px;
+    margin: 0 6px 3px 0;
+}
+
+.techstack {
+    /* background: red; */
+    position: absolute;
+    /* width: 50%; */
+    bottom: 0px;
+    right: 0px;
+    font-size: 0.9em;
+    color: var(--red);
+    text-align: left;
+    /* line-height: 170%; */
+    /* border-radius: var(--border-rad); */
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
 .ProjectCard:hover .back {
     transform: rotateX(0deg);
 }

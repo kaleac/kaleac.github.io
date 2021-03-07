@@ -26,6 +26,9 @@ function Projects() {
                 className={proj.fields.class}
                 front={proj.fields.front}
                 back={proj.fields.back}
+                link_text={proj.fields.link_text}
+                link={proj.fields.link}
+                // techstack="java"
                 />
             </div>
             ))}
