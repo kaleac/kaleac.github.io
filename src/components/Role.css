@@ -1,0 +1,53 @@
+:root {
+    --yellow: #D39B3E;
+    --red: #AF3727;
+    --green: #6B9334;
+    --blue: #8AC0BC;
+    --bg: #FFF8E5;
+  
+}
+.Role {
+    /* background-color: palevioletred; */
+    width: 60%;
+    height: 3em;
+    position: relative;
+    display: flex;
+    left: 9em;
+    color: var(--blue);
+    font-size: 1.2em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    padding: 1em;
+    
+}
+
+.date {
+    position: absolute;
+    top: 0px;
+    left: 2.5em;
+    font-size: 0.6em;
+    color: var(--yellow);
+}
+hr.line {
+    position: absolute;
+    /* flex-direction: column; */
+    display: inline-block;
+    /* left: 5.5em; */
+    left: -1.7em;
+    top: -1.8em;
+    border: 1px solid var(--red);
+    width: 600px;
+}
+
+.bullet {
+    /* background-color: pink; */
+    font-size: 2.5em;
+    font-family: 'Cantata One', serif;
+    /* position: absolute; */
+    /* left: 2em; */
+    color: var(--yellow);
+    position: absolute;
+    left: -0.5em;
+    top: 0.1em;
+    /* top: 1.25em; */
+}

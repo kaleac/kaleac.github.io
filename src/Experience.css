@@ -1,0 +1,71 @@
+:root {
+    --yellow: #D39B3E;
+    --red: #AF3727;
+    --green: #6B9334;
+    --blue: #8AC0BC;
+    --bg: #FFF8E5;
+}
+
+.Experience{
+    /* background-color: blue; */
+    width: 100vw;
+    min-height: 50vh;
+
+    position: relative;
+    display: block;
+}
+
+.experience_title {
+  width: 800px;
+  height: 80px;
+  position: relative;
+  left: 3em;
+  font-size: 3em; 
+  letter-spacing: 2.5px;
+  font-family: 'Asap', 'Source Sans Pro';
+  color: var(--blue);
+  margin-bottom: 30px;
+}
+
+.Bullet {
+  width: 5px;
+  /* background-color: palevioletred; */
+  position: absolute;
+  margin: 1px;
+  left: 2em;
+  color: var(--yellow);
+  font-size: 5em;
+  
+}
+
+.b1 .star{
+  width: 10px;
+  background-color: palevioletred;
+  position: absolute;
+  margin: 1px;
+  left: 2em;
+  color: var(--yellow);
+  font-size: 5em;
+}
+
+.b2 .star{
+  width: 10px;
+  background-color: aqua;
+  /* color: black; */
+  position: absolute;
+  margin: 1px;
+  left: 2em;
+  top: 5em;
+  color: var(--yellow);
+  font-size: 5em;
+}
+
+.bullets {
+  background-color: aquamarine;
+  font-size: 5em;
+  position: absolute;
+  left: 2em;
+  color: var(--yellow);
+  top: 1.25em;
+
+}

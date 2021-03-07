@@ -1,38 +1,174 @@
+:root {
+  --yellow: #D39B3E;
+  --red: #AF3727;
+  --green: #6B9334;
+  --bg: #FFF8E5;
+
+}
+
+@font-face {
+  font-family: Asap;
+  src: url("./assets/fonts/Asap-Medium.otf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: CantataOne;
+  src: url("./assets/fonts/CantataOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: dm;
+  src: url("./assets/fonts/DMSans-Regular.ttf");
+}
+
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: relative;
+  background-color: var(--bg);
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chinese-name {
+  /* 80px */
+  font-size: 3em; 
+  font-family: 'Source Sans Pro';
+  color: var(--yellow);
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-top: 15px;
+  margin-left: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home {
+  /* background-color: purple; */
+  width: 100vw;
+  min-height: 80vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  color: var(--red);
+  margin-top: 70px;
+  margin-left: 160px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.greeting {
+  /* background-color: purple; */
+  /* position: absolute; */
+  /* left: 0; */
+  position: relative;
+  left: -80px;
+  width: 80vw;
+  font-size: 5em; 
+  font-family: 'Asap', 'Source Sans Pro';
   display: flex;
-  flex-direction: column;
+  padding: 0;
+  line-height: 85pt;
+  /* z-index: 1; */
+  cursor: default;
+}
+.bold {
+  /* background-color: purple; */
+  font-weight: 800;
+  margin-right: 20px;
+}
+.greeting .pronunciation {
+
+  visibility: hidden;
+  /* display: inline-block; */
+  position: relative;
+  left: 30em;
+  bottom: 5em;
+  color: var(--red);
+  text-align: center;
+  border-radius: 6px;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.2em;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.greeting .pronunciation::after {
+  /* background-color: red; */
+  content: "";
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-left: -5px;
+  /* border-width: 5px; */
+  border-style: solid;
+  border-color: var(--red) transparent transparent transparent;
+}
+.greeting:hover .pronunciation {
+  /* display: block; */
+  visibility: visible;
+  opacity: 1;
+}
+.intro {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* left: 10px; */
+  font-size: 1.2em; 
+  /* height: 100px; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 200%;
+  margin: 10px;
+  /* text-align: left; */
 }
 
-.App-link {
-  color: #61dafb;
+.dragon {
+  width: 18vw; 
+  position: absolute;
+  right: 5em;
+  top: 10em;
+  border-radius: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.me {
+  width: 18vw; 
+  position: absolute;
+  right: 13em;
+  top: 15em;
+  border-radius: 100%;
 }
+
+.star_decor0 {
+  width: 1em;
+  position: absolute;
+  right: 70px;
+  /* background-color: palevioletred; */
+  font-size: 3em;
+  font-family: 'Corben', cursive;
+  color: var(--green);
+  margin: 0.3em;
+}
+.star_decor {
+  width: 1m;
+  position: absolute;
+  right: 0px;
+  /* background-color: palevioletred; */
+  font-size: 8em;
+  font-family: 'Elsie', cursive;
+  color: var(--green);
+  margin: 0.3em;
+}
+
+.sunflowerseeds {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 0px;
+  /* background-color: palevioletred; */
+  font-size: 8em;
+  font-family: 'Diplomata', cursive;
+  color: var(--yellow);
+  margin: 0.4em;
+  margin-left: 0.6em;
+}
+

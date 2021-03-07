@@ -1,0 +1,19 @@
+:root {
+    --yellow: #D39B3E;
+    --red: #AF3727;
+    --green: #6B9334;
+    --blue: #8AC0BC;
+    --bg: #FFF8E5;
+  
+}
+.Loved {
+    background-color: palevioletred;
+}
+
+.caption {
+    background-color: blue;
+    width: 5em;
+    position: relative;
+    font-size: 10em;
+    color: var(--blue);
+}

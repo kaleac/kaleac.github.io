@@ -1,0 +1,112 @@
+:root {
+  --yellow: #D39B3E;
+  --red: #AF3727;
+  --green: #6B9334;
+  --bg: #FFF8E5;
+  --loved_width: 13em;
+  --loved_height: 9em;
+  --border-rad: 2px;
+
+}
+
+.AboutMe{
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    display: block;
+}
+
+.title {
+  width: 500px;
+  height: 90px;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 270px;
+  right: -2em;
+
+  font-size: 3.5em; 
+  letter-spacing: 2.5px;
+  font-family: 'Asap', 'Source Sans Pro';
+  transform: rotate(90deg);
+  color: var(--yellow);
+}
+
+.love_container {
+  /* background-color: olivedrab; */
+  width: 400px;
+  height: 700px;
+  position: absolute;
+  top: 40px;
+  right: 150px;
+  border-radius: 10px;
+}
+
+.waterflowers {
+  width: var(--loved_width);
+  height: var(--loved_height);
+  border-right: 15px solid var(--yellow);
+  margin: 25px;
+  border-radius: var(--border-rad);
+}
+.waterflowerscap {
+  position: relative;
+  bottom: 3em;
+  left: 1em;
+  font-size: 1em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin: 1em;
+  margin-top: 30px;
+}
+.manga {
+  width: var(--loved_width);
+  height: var(--loved_height);
+  border-right: 15px solid var(--yellow); 
+  margin: 25px;
+  border-radius: var(--border-rad);
+}
+.mangacap {
+  position: relative;
+  bottom: 3em;
+  left: 1em;
+  font-size: 1em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin: 1em;
+  margin-top: 30px;
+}
+.bujo {
+  width: var(--loved_width);
+  height: var(--loved_height);
+  border-right: 15px solid var(--yellow); 
+  margin: 25px;
+  border-radius: var(--border-rad);
+}
+.bujocap {
+  /* background-color: blue; */
+  position: relative;
+  bottom: 3em;
+  left: 1em;
+  font-size: 1em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin: 1em;
+  margin-top: 30px;
+}
+.star_enjoy {
+  width: 1m;
+  position: absolute;
+  top: 4em;
+  right: 0.7em;
+  /* background-color: palevioletred; */
+  font-size: 6em;
+  font-family: 'Corben', cursive;
+  color: var(--blue);
+  margin: 0.3em;
+}
+
+  
+  
